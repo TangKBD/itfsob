@@ -14,7 +14,7 @@ $bmi = $weight / ($height / 100) ** 2;
 $calc = round($bmi, 2);
 
 
-$sql = "INSERT INTO tangkabodee (Name , weight , height, bmi) VALUES ('$name', '$weight', '$height', '$calc')";
+$sql = "INSERT INTO exam (Name , weight , height, bmi) VALUES ('$name', '$weight', '$height', '$calc')";
 
 if (mysqli_query($conn, $sql)) {
   echo "<script type='text/javascript'>";
