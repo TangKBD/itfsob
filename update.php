@@ -1,7 +1,7 @@
 <?php
 $id=$_GET['ID'];
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'tangkabodee.mysql.database.azure.com', 'kakasoro11@tangkabodee', '0809009565Aa', 'exam', 3306);
+mysqli_real_connect($conn, 'tangkabodee.mysql.database.azure.com', 'kakasoro11@tangkabodee', '0809009565Aa', 'tangkabodee', 3306);
 $name=$_POST['Name'];
 $weight=$_POST['Weight'];
 $height=$_POST['Height'];
